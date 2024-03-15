@@ -1,5 +1,4 @@
 # TIL
 
-공부하면서 드는 생각과 의문을 공유합니다. 
-  - [Q&A](https://github.com/woneee99/TIL/discussions)
-  - [TIL](https://github.com/woneee99/TIL)
+[Q&A](https://github.com/woneee99/TIL/discussions) - 헷갈리는 개념과 고민 공유 <p>
+[Today I Learned](https://github.com/woneee99/TIL) - 개념 정리
