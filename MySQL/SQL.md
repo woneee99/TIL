@@ -15,3 +15,21 @@
 1. 문자열 합치기
     - CONCAT - CONCAT(문자(데이터), 문자(데이터), ...) AS '칼럼명'
     - || (쌍파이프) - SELECT 데이터1 || 데이터2 || 데이터3 AS '칼럼명'
+
+## 조건문
+### CASE문
+- 아래 두 방법으로 사용 가능
+```sql
+    CASE STATUS
+        WHEN 'SALE' THEN "판매중"
+        WHEN 'RESERVED' THEN "예약중"
+        WHEN 'DONE' THEN "거래완료"
+    END AS STATUS
+```
+```sql
+    CASE 
+        WHEN STATUS = 'SALE' THEN "판매중"
+        WHEN STATUS = 'RESERVED' THEN "예약중"
+        WHEN STATUS = 'DONE' THEN "거래완료"
+    END AS STATUS
+```
