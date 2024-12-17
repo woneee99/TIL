@@ -123,10 +123,15 @@ class AnalogClock implements ClockInterface {
 }
 
 let digital = createClock(DigitalClock, 12, 17);
-digital.tick();
+digital.tick(); // 다음과 같이 호출
 let analog = createClock(AnalogClock, 7, 32);
 analog.tick();
 ```
+
+🤔 implements와 extends는 무엇을 각각 상속 받을까?
+* extends는 class -> class | interface -> interface
+* implements는 class -> interface
+  
 
 ### 인터페이스 확장하기
 ```typescript
